@@ -9,6 +9,17 @@ li:first-child{
 }
 ```
 
+## Pseudo Elements
+
+```html
+li::first-letter{
+<!--
+element::after: ;
+element::before: ;
+-->
+}
+```
+
 ## Styling hyperlinks
 
 - a:link {}
