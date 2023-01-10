@@ -62,3 +62,13 @@ More border-radius playful and fun
 border-radius: ;
 
 Multiples of 16
+
+# Personalities
+
+*Calm* and *Startup* more popular ones 
+
+## Usefull links for "inspiration"
+- LandBook
+- onepagelove
+- awwwards
+- screenlane
