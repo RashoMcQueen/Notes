@@ -33,3 +33,32 @@ coolors
 
 # Images
 
+## Free images
+For images
+[Unsplash](https://unsplash.com/)
+[Pexels](https://www.pexels.com/)
+For ilustrations
+[DrawKit](https://www.drawkit.com/)
+[unDraw](https://undraw.co/)
+
+# Icons
+Only use one icon pack
+Use SVG icons or icon fonts. Don't use bitmap image format (.jpg and .png)
+- Phosphor icons
+- ionicons
+- icons8
+
+Properties CSS
+stroke
+fill
+
+# Shadows
+To add shadow to box
+box-shadow: 
+
+# Border Radius
+Less border-radius serious/elegant 
+More border-radius playful and fun
+border-radius: ;
+
+Multiples of 16
