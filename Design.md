@@ -20,3 +20,16 @@
 - No under 400 font-weigth
 - Less than 75 char per line
 - Don't justify text
+
+# Colors
+
+## Usefull links
+[open color ](https://yeun.github.io/open-color/)
+[Tailwind Framework](https://tailwindcss.com/)
+[Color Palette](https://flatuicolors.com/)
+[Tint and Shade](https://maketintsandshades.com/)
+palleton.com
+coolors
+
+# Images
+
