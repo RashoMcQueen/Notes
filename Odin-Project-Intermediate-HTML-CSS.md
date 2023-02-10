@@ -15,7 +15,26 @@ Use rem for fontsize px for everything else
 ```css
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 ```
+## Useful CSS Properties
+- Overflow.
+- Opacity (zero for transparent).
+  
+## Sibling Selectors
+- Selector + .- immediately follows a specific tag 
+```html
+<main>
+  <h1>Hello</h1>
+  <h1>Wolrd</h1> /*Only this would be affected*/
+</main>	
+```
+```css
+h1 + h2 {
+  color: orange;
+}
+```
 
+  
+  
 ## Useful links
 [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
