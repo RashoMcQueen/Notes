@@ -20,7 +20,7 @@ Use rem for fontsize px for everything else
 - Opacity (zero for transparent).
   
 ## Sibling Selectors
-- Selector + .- immediately follows a specific tag 
+- Selector *+* .- immediately follows a specific tag 
 ```html
 <main>
   <h1>Hello</h1>
@@ -32,9 +32,36 @@ h1 + h2 {
   color: orange;
 }
 ```
+- Selector *>* .- select child elements
+```html
+ <main class="parent">
+  <div class="child group1">
+    <div class="grand-child group1"></div>
+  </div>
+  <div class="child group2">
+    <div class="grand-child group2"></div>
+  </div>
+  <div class="child group3">
+    <div class="grand-child group3"></div>
+  </div>
+</main> 
+```
+```css
+  /* This rule will only select divs with a class of child */
+main > div {
+}
 
-  
-  
+/* This rule will only select divs with a class of grand-child */
+main > div > div {
+}
+```
+- Selector *~* .- Select every elements that has a sibling
+```css
+/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
+  .group1 ~ div {
+  }
+}```  
+            
 ## Useful links
 [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
