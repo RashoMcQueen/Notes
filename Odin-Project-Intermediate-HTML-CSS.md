@@ -38,6 +38,9 @@
   - [Pattern Validation](#pattern-validation)
   - [Styling Validations :invalid :valid](#styling-validations-invalid-valid)
   - [Useful links](#useful-links-1)
+- [Grid](#grid)
+  - [Implicit](#implicit)
+  - [Positioning](#positioning)
 
 # Tables
 
@@ -569,3 +572,26 @@ input:valid {
 - [Commonly used pattern regular expressions](https://www.html5pattern.com/)
 - [How to validate forms](https://twitter.com/vponamariov/status/1400388896136040454)
 - [How to Report Errors in Forms](https://www.nngroup.com/articles/errors-forms-design-guidelines/)
+
+# Grid
+
+To make a grid
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px;
+  /* or with short form 
+  grid-template: 50px 50px / 50px 50px 50px; 
+  first rows and then cols
+  */
+}
+```
+
+## Implicit
+
+It will define new grid tracks. The size values established from our grid-template-columns or grid-template-rows properties are not carried over into these implicit grid tracks.
+We can set the implicit grid track sizes using the **grid-auto-rows** and **grid-auto-columns** properties. In this way we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined.
+
+
